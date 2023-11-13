@@ -37,6 +37,11 @@ strong {
 	font-weight: 700;
 }
 
+.wrapper {
+	width: 80%;
+	margin: auto;
+}
+
 /* レスポンシブイメージと画像下スペース防止 */
 img {
 	max-width: 100%;
@@ -50,6 +55,9 @@ img {
 	padding: 0;
 }
 
+li {
+	list-style: none;
+}
 
 /* ヘッダー部 */
 
@@ -192,55 +200,29 @@ nav a {
 	padding-bottom: 30px;
 }
 
-/*   Footer    */
-footer {
-	background-color: #f5f3e7;
+/*-------------------------------------------
+footer
+-------------------------------------------*/
+#footer {
+    padding: 80px 0 20px 0;
 }
-
-.sns-icon h3 {
-	color: #777;
-	padding-top: 10px;
+#footer .inner {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
 }
-
-.sns-icon {
-	text-align: center;
+#footer .inner li {
+    padding: 5px 0;
 }
-
-.icon-img {
-	width: 130px;
-	display: flex;
-	margin: 0 auto;
+#footer .title {
+    font-weight: bold;
+    margin-bottom: 8px;
 }
-
-.icon-img a {
-	padding: 5px 5px 30px 5px;
+#footer .menu {
+    font-size: 0.75rem;
+    margin: 5px;
 }
-
-.footer-container {
-	margin: 0 10px 0 20px;
-}
-
-.footer-nav {
-	margin-bottom: 20px;
-}
-
-.footer-nav1 h4 {
-	margin-bottom: 5px;
-}
-
-.footer-container li {
-	list-style: none;
-	font-weight: 600;
-}
-
-.footer-logo {
-	width: 15%;
-	margin: auto;
-}
-
-/* コピーライト */
-.copyright {
-	font-size: .75rem;
-	color: #999;
-	text-align: center;
+#footer .copyright {
+    font-size: 0.625rem;
+    text-align: center;
 }
