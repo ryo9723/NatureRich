@@ -97,24 +97,6 @@ li {
 	right: 14%;
 }
 
-nav {
-	width: 100%;
-	display: none;
-	margin: 0 auto;
-	background-color: #f5f3e7;
-	list-style: none;
-}
-
-
-nav li {
-	width: 100%;
-	padding: 0 0 0 30px;
-}
-
-nav a {
-	text-decoration: none;
-}
-
 /*  メインコンテナー  */
 .main-container {
 	padding: 10px 0;
@@ -146,7 +128,8 @@ nav a {
 /*   New Arrive & Best Seller */
 .na,
 .bs {
-	margin: 5% 0;
+	width: 90%;
+	margin: 5% auto;
 	justify-content: center;
 }
 
